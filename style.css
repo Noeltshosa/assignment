@@ -1,9 +1,14 @@
 body {
+  background-image: url("Graffiti Art_ Chief's Footwear.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  color: white;
   font-family: Arial, sans-serif;
+  min-height: 100vh;
   margin: 0;
-  padding: 0;
-  background: #f2f2f2;
-  color: #333;
 }
 header {
   background: #222;
