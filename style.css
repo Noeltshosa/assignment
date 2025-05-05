@@ -41,16 +41,18 @@ main {
   text-decoration: none;
 }
 .products {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-.product {
-  background: #fff;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 0 4px rgba(0,0,0,0.1);
-}
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
 form {
   display: flex;
   flex-direction: column;
