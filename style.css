@@ -30,8 +30,8 @@ main {
   padding: 20px;
 }
 .hero {
-  background: #eee;
-  padding: 30px;
+  background-color: transparent;
+  padding: 100px 0;
   text-align: center;
 }
 .button {
