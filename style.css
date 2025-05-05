@@ -40,6 +40,11 @@ main {
   color: #fff;
   text-decoration: none;
 }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
 .products {
       background-color: #1a1a1a;
       border: 1px solid #333;
@@ -48,7 +53,7 @@ main {
       text-align: center;
     }
 .product img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 10px;
