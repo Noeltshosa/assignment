@@ -80,3 +80,8 @@ footer {
   color: white;
   margin-top: 20px;
 }
+.carousel img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
