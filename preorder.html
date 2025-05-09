@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pre-Order - Chief's Footwear</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Chief's Footwear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Pre-Order Form</h2>
+    <form action="#" method="POST">
+      <input type="text" name="fname" placeholder="First Name" required>
+      <input type="text" name="lname" placeholder="Last Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="tel" name="contact" placeholder="+267..." required pattern="\+267\d{7}">
+      <input type="text" name="address" placeholder="Shipping Address" required>
+      <select name="sneaker" required>
+        <option value="">Select Sneaker</option>
+        <option value="White Nike Airforce 1">White Nike Airforce 1 - 700 BWP</option>
+        <option value="Jordan 1 University Blue">Nike Jordan 1 University Blue - 1200 BWP</option>
+        <option value="Cactus Jack 6 Khaki">Cactus Jack Jordan 6 Khaki - 2500 BWP</option>
+        <!-- Add more as needed -->
+      </select>
+      <button type="submit">Submit Order</button>
+    </form>
+  </main>
+
+  <footer>
+    &copy; 2025 Chief's Footwear.
+  </footer>
+</body>
+</html>
