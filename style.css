@@ -42,48 +42,27 @@ main {
   color: #fff;
   text-decoration: none;
 }
-    .grid {
+  .grid {
       display: flex;
       flex-wrap : wrap;
       justify-content : center;
-      align-items: center;
       gap: 20px ;
-      padding: 20px ; 
+      padding: 20px ;
     }
   .product {
-    background-color: #1a1a1a;
+      background-color: #1a1a1a;
       padding : 15px ;
       border-radius: 10px;
       text-align: center;
-      min-width : 200px
-      height: auto;
+      width : 200px
       color : white ;
-            
-.product img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-.product h3 {
-  font-size: 16px;
-  margin: 10px 0 5px;
-}
-    .product p {
-      font-size: 14px;
-      margin: 0;
     }
-    .product button{
-        background-color : #ff6200;
-        color:white;
-        border: none;
-        padding: 8px 15px;
-        border-radius: 5px;
-        margin-top: 10px;
-        cursor: pointer;
-  }
-.product button:hover {
-    background-color: #e55a00;
+.product img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 form {
   display: flex;
