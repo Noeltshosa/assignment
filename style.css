@@ -49,18 +49,15 @@ main {
     }
   .product {
       background-color: #1a1a1a;
-      padding : 15px ;
+      border: 1px solid #333;
       border-radius: 10px;
+      padding: 1em;
       text-align: center;
-      width : 200px
-      color : white ;
     }
 .product img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
+     max-width: 100%;
+      height: auto;
+      border-radius: 5px;
 }
 
 form {
