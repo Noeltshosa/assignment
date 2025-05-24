@@ -88,7 +88,7 @@ footer {
 }
 .carousel img {
   height: 450px;
-  object-fit: cover;
+  object-fit: auto;
   border-radius: 10px;
 }
 
