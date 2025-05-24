@@ -42,11 +42,9 @@ main {
   text-decoration: none;
 }
     .grid {
-      display: flex;
-      flex-wrap : wrap;
-      justify-content : center;
-      gap: 20px ;
-      padding: 20px ;
+       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
     }
   .product {
       background-color: #1a1a1a;
