@@ -43,24 +43,26 @@ main {
   text-decoration: none;
 }
     .grid {
-       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1em;
+       display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
     }
   .product {
-      background-color: #1a1a1a;
-      padding : 15px ;
-      border-radius: 10px;
-      text-align: center;
-      width : 200px
-      color : white ; 
+      background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    color: white; 
     }
 .product img {
-     width: 120px;
-  height: 120px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
 }
 
 form {
