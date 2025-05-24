@@ -30,6 +30,13 @@ nav a {
 main {
   padding: 20px;
 }
+main a {
+    color: #0066cc;
+    text-decoration: none;
+}
+main a: hover {
+     text decoration: underlne;
+}
 .hero {
   background-color: transparent;
   padding: 100px 0;
