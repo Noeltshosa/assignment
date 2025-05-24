@@ -37,6 +37,13 @@ main a {
 main a: hover {
      text decoration: underlne;
 }
+i.fab {
+  margin-right: 8px;
+  color: #3b5998; 
+}
+a[href*="instagram"] i {
+  color: #e4405f;
+}
 .hero {
   background-color: transparent;
   padding: 100px 0;
