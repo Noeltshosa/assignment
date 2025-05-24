@@ -49,15 +49,12 @@
   <footer>
      &copy; 2025 Chief's Footwear. All rights reserved. By Mr Noello Tshosa.
   </footer>
-  script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const form = document.getElementById("orderForm");
-      form.addEventListener("submit", function (event) {
-        event.preventDefault();
-        form.style.display = "none";
-        document.getElementById("thankYouMessage").style.display = "block";
-      });
-    });
-  </script
+  <script>
+  document.getElementById("orderForm").addEventListener("submit", function(event) {
+    event.preventDefault(); 
+    this.style.display = "none"; 
+    document.getElementById("thankYouMessage").style.display = "block"; 
+  });
+  </script>
 </body>
 </html>
