@@ -90,6 +90,11 @@ input, select, button {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
+.thankYouMessage{
+  display: none; 
+  color: green; 
+  margin-top: 20px;
+}
 footer {
   text-align: center;
   padding: 20px;
