@@ -65,7 +65,7 @@ a[href*="instagram"] i {
   padding: 20px;
 }
 .product {
-  background-color: #1a1a1a;
+  background: transparent;
   padding: 15px;
   border-radius: 10px;
   text-align: center;
