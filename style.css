@@ -31,11 +31,11 @@ main {
   padding: 20px;
 }
 main a {
-    color: #0066cc;
-    text-decoration: none;
+  color: #0066cc;
+  text-decoration: none;
 }
-main a: hover {
-     text decoration: underlne;
+main a:hover {
+  text-decoration: underline;
 }
 i.fab {
   margin-right: 8px;
@@ -56,27 +56,32 @@ a[href*="instagram"] i {
   color: #fff;
   text-decoration: none;
 }
-  .grid {
-      display: flex;
-      flex-wrap : wrap;
-      justify-content : center;
-      gap: 20px ;
-      padding: 20px ;
-    }
-  .product {
-      background-color: #1a1a1a;
-      padding : 15px ;
-      border-radius: 10px;
-      text-align: center;
-      width : 200px
-      color : white ;
-    }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.product {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  color: white;
+}
 .product img {
   width: 120px;
   height: 120px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
+}
+.product p,
+.product h3,
+.product span {
+  color: white;
 }
 form {
   display: flex;
@@ -90,18 +95,18 @@ input, select, button {
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-.thank-you-message{
+.thank-you-message {
   display: none; 
   color: green; 
   margin-top: 20px;
 }
-.thank-you-message h2{
-   color:#fff;
-   font-size: 2rem;
-  margin-bottom:0.5em;
+.thank-you-message h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
 }
-.thank-you-message p{
-   font-size: 1.1rem;
+.thank-you-message p {
+  font-size: 1.1rem;
 }
 footer {
   text-align: center;
@@ -118,4 +123,5 @@ footer {
   object-fit: auto;
   border-radius: 5px;
 }
+
 
