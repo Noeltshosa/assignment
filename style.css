@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 header {
-  background: #222;
+  background:transparent;
   color: #fff;
   padding: 10px 20px;
   text-align: center;
@@ -111,7 +111,7 @@ input, select, button {
 footer {
   text-align: center;
   padding: 20px;
-  background: #222;
+  background: transparent;
   color: white;
   position: fixed;
   bottom: 0;
